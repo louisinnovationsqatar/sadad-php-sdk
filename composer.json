@@ -1,0 +1,35 @@
+{
+    "name": "louis-innovations/sadad-php-sdk",
+    "description": "SADAD Payment Gateway SDK for PHP - Web checkout, invoices, refunds, and transaction management for Qatar's payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Louis Innovations",
+            "email": "info@louis-innovations.com",
+            "homepage": "https://www.louis-innovations.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LouisInnovations\\Sadad\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LouisInnovations\\Sadad\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "keywords": ["sadad", "qatar", "payment-gateway", "payment", "checkout", "invoice"]
+}
